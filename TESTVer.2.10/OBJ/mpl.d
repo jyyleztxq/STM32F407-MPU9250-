@@ -1,0 +1,16 @@
+..\obj\mpl.o: ..\HARDWARE\MPL\mllite\mpl.c
+..\obj\mpl.o: ..\HARDWARE\MPL\mllite\storage_manager.h
+..\obj\mpl.o: ..\HARDWARE\MPL\driver\include\mltypes.h
+..\obj\mpl.o: ..\HARDWARE\MPL\driver\include\stdint_invensense.h
+..\obj\mpl.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\mpl.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\mpl.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\errno.h
+..\obj\mpl.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\limits.h
+..\obj\mpl.o: ..\HARDWARE\MPL\driver\include\log.h
+..\obj\mpl.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\mpl.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\mpl.o: ..\HARDWARE\MPL\mllite\mpl.h
+..\obj\mpl.o: ..\HARDWARE\MPL\mllite\start_manager.h
+..\obj\mpl.o: ..\HARDWARE\MPL\mllite\data_builder.h
+..\obj\mpl.o: ..\HARDWARE\MPL\mllite\results_holder.h
+..\obj\mpl.o: ..\HARDWARE\MPL\driver\include\mlinclude.h

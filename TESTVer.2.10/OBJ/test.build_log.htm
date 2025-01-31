@@ -1,0 +1,99 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: a Microsoft, Microsoft, LIC=KIV74-FPQIG-EXRUX-H8F9W-NS04A-6ZYD6
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  D:\largesoftware\KEIL5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+D:\PROJECTS\PROJECT\2017\外骨骼感知系统搭建\IMU\STM32_READ_DATA\TEST\TESTVer.2.01\USER\test.uvprojx
+Project File Date:  12/06/2017
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling startup_stm32f40_41xxx.s...
+compiling test.c...
+test.c(134): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+             hx = 2*mx*(0.50 - q2q2 - q3q3) + 2*my*(q1q2 - q0q3) + 2*mz*(q1q3 + q0q2);
+test.c(135): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+             hy = 2*mx*(q1q2 + q0q3) + 2*my*(0.50 - q1q1 - q3q3) + 2*mz*(q2q3 - q0q1);
+test.c(136): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+             hz = 2*mx*(q1q3 - q0q2) + 2*my*(q2q3 + q0q1) + 2*mz*(0.50 - q1q1 -q2q2);    
+test.c(147): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+             wx = 2*bx*(0.5 - q2q2 - q3q3) + 2*bz*(q1q3 - q0q2);
+test.c(149): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+             wz = 2*bx*(q0q2 + q1q3) + 2*bz*(0.5 - q1q1 - q2q2); 
+test.c(182): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                          k10=0.5 * (-gx*q1 - gy*q2 - gz*q3);
+test.c(183): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                k11=0.5 * ( gx*q0 + gz*q2 - gy*q3);
+test.c(184): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                k12=0.5 * ( gy*q0 - gz*q1 + gx*q3);
+test.c(185): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                k13=0.5 * ( gz*q0 + gy*q1 - gx*q2);
+test.c(187): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                k20=0.5 * (halfT*(q0+halfT*k10) + (halfT-gx)*(q1+halfT*k11) + (halfT-gy)*(q2+halfT*k12) + (halfT-gz)*(q3+halfT*k13));
+test.c(188): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                k21=0.5 * ((halfT+gx)*(q0+halfT*k10) + halfT*(q1+halfT*k11) + (halfT+gz)*(q2+halfT*k12) + (halfT-gy)*(q3+halfT*k13));
+test.c(189): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                k22=0.5 * ((halfT+gy)*(q0+halfT*k10) + (halfT-gz)*(q1+halfT*k11) + halfT*(q2+halfT*k12) + (halfT+gx)*(q3+halfT*k13));
+test.c(190): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                k23=0.5 * ((halfT+gz)*(q0+halfT*k10) + (halfT+gy)*(q1+halfT*k11) + (halfT-gx)*(q2+halfT*k12) + halfT*(q3+halfT*k13));
+test.c(192): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                k30=0.5 * (halfT*(q0+halfT*k20) + (halfT-gx)*(q1+halfT*k21) + (halfT-gy)*(q2+halfT*k22) + (halfT-gz)*(q3+halfT*k23));
+test.c(193): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                k31=0.5 * ((halfT+gx)*(q0+halfT*k20) + halfT*(q1+halfT*k21) + (halfT+gz)*(q2+halfT*k22) + (halfT-gy)*(q3+halfT*k23));
+test.c(194): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                k32=0.5 * ((halfT+gy)*(q0+halfT*k20) + (halfT-gz)*(q1+halfT*k21) + halfT*(q2+halfT*k22) + (halfT+gx)*(q3+halfT*k23));
+test.c(195): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                k33=0.5 * ((halfT+gz)*(q0+halfT*k20) + (halfT+gy)*(q1+halfT*k21) + (halfT-gx)*(q2+halfT*k22) + halfT*(q3+halfT*k23));
+test.c(197): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                k40=0.5 * (dt*(q0+dt*k30) + (dt-gx)*(q1+dt*k31) + (dt-gy)*(q2+dt*k32) + (dt-gz)*(q3+dt*k33));
+test.c(198): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                k41=0.5 * ((dt+gx)*(q0+dt*k30) + dt*(q1+dt*k31) + (dt+gz)*(q2+dt*k32) + (dt-gy)*(q3+dt*k33));
+test.c(199): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                k42=0.5 * ((dt+gy)*(q0+dt*k30) + (dt-gz)*(q1+dt*k31) + dt*(q2+dt*k32) + (dt+gx)*(q3+dt*k33));
+test.c(200): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                k43=0.5 * ((dt+gz)*(q0+dt*k30) + (dt+gy)*(q1+dt*k31) + (dt-gx)*(q2+dt*k32) + dt*(q3+dt*k33));   
+test.c(202): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                q0=q0 + dt/6.0 * (k10+2*k20+2*k30+k40);
+test.c(203): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                q1=q1 + dt/6.0 * (k11+2*k21+2*k31+k41);
+test.c(204): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                q2=q2 + dt/6.0 * (k12+2*k22+2*k32+k42);
+test.c(205): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                q3=q3 + dt/6.0 * (k13+2*k23+2*k33+k43);
+test.c: 25 warnings, 0 errors
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+compiling myiic.c...
+compiling mpu9250.c...
+linking...
+Program Size: Code=22470 RO-data=858 RW-data=228 ZI-data=1324  
+FromELF: creating hex file...
+"..\OBJ\test.axf" - 0 Error(s), 25 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  D:\PROJECTS\PROJECT\2017\外骨骼感知系统搭建\IMU\STM32_READ_DATA\TEST\TESTVer.2.01\USER\RTE
+  D:\largesoftware\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

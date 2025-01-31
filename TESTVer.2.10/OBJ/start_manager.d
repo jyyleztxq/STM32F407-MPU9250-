@@ -1,0 +1,11 @@
+..\obj\start_manager.o: ..\HARDWARE\MPL\mllite\start_manager.c
+..\obj\start_manager.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\start_manager.o: ..\HARDWARE\MPL\driver\include\log.h
+..\obj\start_manager.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\start_manager.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\start_manager.o: ..\HARDWARE\MPL\mllite\start_manager.h
+..\obj\start_manager.o: ..\HARDWARE\MPL\driver\include\mltypes.h
+..\obj\start_manager.o: ..\HARDWARE\MPL\driver\include\stdint_invensense.h
+..\obj\start_manager.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\start_manager.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\errno.h
+..\obj\start_manager.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\limits.h

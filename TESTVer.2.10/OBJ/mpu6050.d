@@ -1,0 +1,13 @@
+..\obj\mpu6050.o: ..\HARDWARE\mpu6050.c
+..\obj\mpu6050.o: ..\HARDWARE\mpu6050.h
+..\obj\mpu6050.o: ..\SYSTEM\sys\sys.h
+..\obj\mpu6050.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\mpu6050.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\mpu6050.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\mpu6050.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\mpu6050.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\mpu6050.o: ..\SYSTEM\sys\core_cm4_simd.h
+..\obj\mpu6050.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\mpu6050.o: ..\SYSTEM\delay\delay.h
+..\obj\mpu6050.o: ..\SYSTEM\usart\usart.h
+..\obj\mpu6050.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\stdio.h

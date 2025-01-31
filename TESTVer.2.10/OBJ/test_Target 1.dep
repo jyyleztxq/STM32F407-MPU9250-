@@ -1,0 +1,72 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f40_41xxx.s)(0x542E6B02)(--cpu Cortex-M4.fp -g --apcs=interwork -I D:\PROJECTS\PROJECT\2017\外骨骼感知系统搭建\IMU\STM32_READ_DATA\TEST\TESTVer.2.01\USER\RTE-I D:\largesoftware\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I D:\largesoftware\KEIL5\ARM\CMSIS\Include-I D:\largesoftware\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F407xx SETA 1"--list ..\obj\startup_stm32f40_41xxx.lst --xref -o ..\obj\startup_stm32f40_41xxx.o --depend ..\obj\startup_stm32f40_41xxx.d)
+F (.\test.c)(0x5A28FBA2)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE-I D:\PROJECTS\PROJECT\2017\外骨骼感知系统搭建\IMU\STM32_READ_DATA\TEST\TESTVer.2.01\USER\RTE-I D:\largesoftware\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I D:\largesoftware\KEIL5\ARM\CMSIS\Include-I D:\largesoftware\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DSTM32F40_41xxx-o ..\obj\test.o --omf_browse ..\obj\test.crf --depend ..\obj\test.d)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\largesoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\SYSTEM\usart\usart.h)(0x5528CC5B)
+I (D:\largesoftware\KEIL5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\SYSTEM\delay\delay.h)(0x555D4A36)
+I (..\HARDWARE\mpu9250.h)(0x5A28ECB5)
+I (D:\largesoftware\KEIL5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+F (..\SYSTEM\delay\delay.c)(0x55BF04B1)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE-I D:\PROJECTS\PROJECT\2017\外骨骼感知系统搭建\IMU\STM32_READ_DATA\TEST\TESTVer.2.01\USER\RTE-I D:\largesoftware\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I D:\largesoftware\KEIL5\ARM\CMSIS\Include-I D:\largesoftware\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DSTM32F40_41xxx-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x555D4A36)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\largesoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+F (..\SYSTEM\sys\sys.c)(0x5528CA85)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE-I D:\PROJECTS\PROJECT\2017\外骨骼感知系统搭建\IMU\STM32_READ_DATA\TEST\TESTVer.2.01\USER\RTE-I D:\largesoftware\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I D:\largesoftware\KEIL5\ARM\CMSIS\Include-I D:\largesoftware\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DSTM32F40_41xxx-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\largesoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+F (..\SYSTEM\usart\usart.c)(0x5A1B6F37)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE-I D:\PROJECTS\PROJECT\2017\外骨骼感知系统搭建\IMU\STM32_READ_DATA\TEST\TESTVer.2.01\USER\RTE-I D:\largesoftware\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I D:\largesoftware\KEIL5\ARM\CMSIS\Include-I D:\largesoftware\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DSTM32F40_41xxx-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\largesoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\SYSTEM\usart\usart.h)(0x5528CC5B)
+I (D:\largesoftware\KEIL5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\readme.txt)(0x55BF195F)()
+F (..\HARDWARE\myiic.c)(0x5A24AF1D)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE-I D:\PROJECTS\PROJECT\2017\外骨骼感知系统搭建\IMU\STM32_READ_DATA\TEST\TESTVer.2.01\USER\RTE-I D:\largesoftware\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I D:\largesoftware\KEIL5\ARM\CMSIS\Include-I D:\largesoftware\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DSTM32F40_41xxx-o ..\obj\myiic.o --omf_browse ..\obj\myiic.crf --depend ..\obj\myiic.d)
+I (..\HARDWARE\myiic.h)(0x5A1EA6CB)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\largesoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\SYSTEM\delay\delay.h)(0x555D4A36)
+F (..\HARDWARE\mpu9250.c)(0x5A28FAD8)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE-I D:\PROJECTS\PROJECT\2017\外骨骼感知系统搭建\IMU\STM32_READ_DATA\TEST\TESTVer.2.01\USER\RTE-I D:\largesoftware\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I D:\largesoftware\KEIL5\ARM\CMSIS\Include-I D:\largesoftware\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DSTM32F40_41xxx-o ..\obj\mpu9250.o --omf_browse ..\obj\mpu9250.crf --depend ..\obj\mpu9250.d)
+I (..\HARDWARE\mpu9250.h)(0x5A28ECB5)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\largesoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\HARDWARE\myiic.h)(0x5A1EA6CB)
+I (..\SYSTEM\delay\delay.h)(0x555D4A36)
+I (..\SYSTEM\usart\usart.h)(0x5528CC5B)
+I (D:\largesoftware\KEIL5\ARM\ARMCC\include\stdio.h)(0x5475F300)

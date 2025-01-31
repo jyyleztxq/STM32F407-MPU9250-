@@ -1,0 +1,14 @@
+..\obj\empl_outputs.o: ..\HARDWARE\MPL\eMPL-hal\eMPL_outputs.c
+..\obj\empl_outputs.o: ..\HARDWARE\MPL\eMPL-hal\eMPL_outputs.h
+..\obj\empl_outputs.o: ..\HARDWARE\MPL\driver\include\mltypes.h
+..\obj\empl_outputs.o: ..\HARDWARE\MPL\driver\include\stdint_invensense.h
+..\obj\empl_outputs.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\empl_outputs.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\empl_outputs.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\errno.h
+..\obj\empl_outputs.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\limits.h
+..\obj\empl_outputs.o: ..\HARDWARE\MPL\mllite\ml_math_func.h
+..\obj\empl_outputs.o: ..\HARDWARE\MPL\driver\include\mlmath.h
+..\obj\empl_outputs.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\empl_outputs.o: ..\HARDWARE\MPL\mllite\start_manager.h
+..\obj\empl_outputs.o: ..\HARDWARE\MPL\mllite\data_builder.h
+..\obj\empl_outputs.o: ..\HARDWARE\MPL\mllite\results_holder.h

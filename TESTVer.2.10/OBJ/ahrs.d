@@ -1,0 +1,12 @@
+..\obj\ahrs.o: ..\HARDWARE\AHRS.c
+..\obj\ahrs.o: ..\HARDWARE\AHRS.h
+..\obj\ahrs.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\ahrs.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\ahrs.o: ..\SYSTEM\sys\sys.h
+..\obj\ahrs.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\ahrs.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\ahrs.o: D:\largesoftware\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\ahrs.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\ahrs.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\ahrs.o: ..\SYSTEM\sys\core_cm4_simd.h
+..\obj\ahrs.o: ..\SYSTEM\sys\system_stm32f4xx.h
